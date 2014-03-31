@@ -14,11 +14,11 @@ require 'rake'
 require 'jeweler'
 Jeweler::Tasks.new do |gem|
   # gem is a Gem::Specification... see http://guides.rubygems.org/specification-reference/ for more options
-  gem.name = "the_noises_downloader"
-  gem.homepage = "http://github.com/ninoseki/the_noises_downloader"
+  gem.name = "the-noises"
+  gem.homepage = "http://github.com/ninoseki/ruby-the-noises"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = %Q{ザ・ノイジーズのポッドキャスト用Rubyクライアント}
+  gem.description = %Q{ザ・ノイジーズのポッドキャスト用Rubyクライアント}
   gem.email = "zgok0079@gmail.com"
   gem.authors = ["ninoseki"]
   # dependencies defined in Gemfile
