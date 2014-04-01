@@ -30,9 +30,9 @@ Gem::Specification.new do |s|
     "VERSION",
     "bin/the-noises",
     "lib/the-noises.rb",
-    "spec/.the-noises_spec.rb.swp",
     "spec/spec_helper.rb",
-    "spec/the-noises_spec.rb"
+    "spec/the-noises_spec.rb",
+    "the-noises.gemspec"
   ]
   s.homepage = "http://github.com/ninoseki/ruby-the-noises"
   s.licenses = ["MIT"]
