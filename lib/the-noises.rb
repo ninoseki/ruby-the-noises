@@ -12,10 +12,10 @@ module TheNoises
 
     def initialize(args = [], options = {}, config = {})
       super
-      self.destination_root = config[:destination_root]
     end
 
     desc "download [index]", "start download"
+    option :dst
     def download(index)
       begin
         i=Integer(index)
@@ -23,6 +23,8 @@ module TheNoises
         raise ArgumentError, "#{index} is not integer"
       end
 
+      self.destination_root = options[:dst]
+      
       url = BASE_URL + "#{index}.mp3"
       show_title(url)
       save(url)
