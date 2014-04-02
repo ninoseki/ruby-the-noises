@@ -15,7 +15,9 @@ module TheNoises
     end
 
     desc "download [index]", "start download"
-    option :dst
+    method_option :dst,
+                  require: false,
+                  desc: "specify desitation directory"
     def download(index)
       begin
         i=Integer(index)
